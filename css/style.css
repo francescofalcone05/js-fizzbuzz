@@ -1,0 +1,58 @@
+/*************** COMMON/CONTAINER *****************/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-class-1{
+    height: 10rem;
+    width: 10rem;
+    background-color: brown;
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+
+
+
+/************* HEADER *************/
+
+
+
+
+
+/************* MAIN *************/
+
+
+
+
+
+/************* FOOTER *************/
+
+
+
+
+
+/************* RESPONSIVE *************/
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+@media screen and (max-width: 576px) {
+ 
+}
