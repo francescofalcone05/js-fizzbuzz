@@ -13,37 +13,33 @@ let fizzBuzz = 'FizzBuzz'
 
 for (numOne; numOne <= 100; numOne++) {
     
+
+    
     if ((numOne % mTre == 0) && (numOne % mCinque == 0)) {
-       // console.log(numOne = `FizzBuzz`)
-       //console.log(`FizzBuzz`)
-    
-    //    numOne = fizzBuzz
-    //    console.log(`${numOne} è multiplo di entrambi`)
-    
-    }   
-    else if (numOne % mTre == 0) {
+        // console.log(numOne = `FizzBuzz`)
+        //console.log(`FizzBuzz`)
+        //    numOne = `${fizzBuzz}`
+        console.log(`${numOne} è multiplo di entrambi`)
+        
+    } else if (numOne % mTre == 0) {
         // numOne = fizz
-        // console.log(`${numOne} è multiplo di ${mTre}`)
-    
-    }
-     
-    else if (numOne % mCinque == 0) {
+        //  numOne = 'fizz'
+        console.log(`${numOne} è multiplo di ${mTre}`)
+        
+    } else if (numOne % mCinque == 0) {
         // numOne = buzz
-    
-        // console.log(`${numOne} è multiplo di ${mCinque}`)   
-    } 
-    else {
-        // console.log(numOne)
-    
+        //  numOne = 'Buzz'
+        console.log(`${numOne} è multiplo di ${mCinque}`)   
+    } else {
+        console.log(numOne)
     }
+
+
     const myUl = document.querySelector('ul');
     const newLi = document.createElement('li');
     newLi.append(numOne);
     newLi.classList.add('my-class-1');
-    
-    
     myUl.append(newLi);
- 
+    
 }
-
 

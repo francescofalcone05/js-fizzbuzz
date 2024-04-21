@@ -11,9 +11,32 @@ ul{
 }
 
 .my-class-1{
+    list-style-type:none;
     height: 10rem;
     width: 10rem;
     background-color: brown;
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+    /* non funziona middle 
+    vertical-align: middle; */
+}
+.my-class-2{
+    list-style-type:none;
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+    /* non funziona middle 
+    vertical-align: middle; */
+}
+.my-class-3{
+    list-style-type:none;
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(97, 165, 42);
     font-size: 2rem;
     margin: 1rem;
     text-align: center;
