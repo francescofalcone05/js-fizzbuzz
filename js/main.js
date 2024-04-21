@@ -11,8 +11,6 @@ let buzz = 'buzz'
 let fizzBuzz = 'FizzBuzz'
 
 
-const myUl = document.querySelector('ul');
-
 for (numOne; numOne <= 100; numOne++) {
     
     if ((numOne % mTre == 0) && (numOne % mCinque == 0)) {
@@ -38,6 +36,7 @@ for (numOne; numOne <= 100; numOne++) {
         // console.log(numOne)
     
     }
+    const myUl = document.querySelector('ul');
     const newLi = document.createElement('li');
     newLi.append(numOne);
     newLi.classList.add('my-class-1');
