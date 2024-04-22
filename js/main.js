@@ -19,26 +19,25 @@ for (numOne; numOne <= 100; numOne++) {
     let myClass = ''
 
     if ((numOne % mTre == 0) && (numOne % mCinque == 0)) {
-        //numOne = `${fizzBuzz}`
-        //numOne = fizzBuzz
+
         contenuto = fizzBuzz
         myClass = `my-class-1`
         console.log(`${numOne} è multiplo di entrambi`)
 
     } else if (numOne % mTre == 0) {
-        // numOne = fizz
-        // numOne = 'fizz'
+
         myClass = `my-class-2`
         contenuto = fizz
         console.log(`${numOne} è multiplo di ${mTre}`)
 
     } else if (numOne % mCinque == 0) {
-        // numOne = buzz
-        // numOne = 'Buzz'
+
         myClass = `my-class-3`
         contenuto = buzz
         console.log(`${numOne} è multiplo di ${mCinque}`)
+        
     } else {
+
         myClass = `my-class-4`
         contenuto = numOne
         console.log(numOne)
